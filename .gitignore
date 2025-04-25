@@ -1,0 +1,43 @@
+# Laravel standard
+
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+/bootstrap/cache
+
+# Environment fajlovi
+.env
+.env.* 
+
+# OS specifični fajlovi
+.DS_Store
+Thumbs.db
+
+# IDE fajlovi
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# PHPStorm metadata
+/.phpstorm.meta.php/
+
+# Composer cache
+composer.lock
+
+# npm, yarn, vite cache
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.vite
+
+# Backup fajlovi
+*.bak
+*.tmp
+*.temp
